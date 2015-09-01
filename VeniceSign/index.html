@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <title>Venice Sign lighting</title>
+    <link rel="stylesheet" href="lights.css" />
+    <link rel="stylesheet" href="light-themes.css" />
+    <script src="lights.js"></script>
+    <script src="light-control.js"></script>
+  </head>
+  <body>
+    <div id="letters" class="none" left="10%" top="10%" class="rel">
+      <div class="letter" id="v1" num-lights="13"></div>
+      <div class="letter" id="e1" num-lights="17"></div>
+      <div class="letter" id="n1" num-lights="19"></div>
+      <div class="letter" id="i1" num-lights="7"></div>
+      <div class="letter" id="c1" num-lights="14"></div>
+      <div class="letter" id="e2" num-lights="17"></div>
+      <img src="logo.jpg" />
+    </div>
+
+    <div id="controls">
+      <label>Theme</label>
+      <select id="theme">
+        <option value="none">None</option>
+        <option value="christmas">Christmas - every other letter red/green</option>
+        <option value="christmas2">Christmas 2 - every other light red/green</option>
+        <option value="independence-day">Independence Day - red, white & blue</option>
+      </select>
+    </div>
+    
+    <div id="info">
+      View <a target="_blank" href="light-themes.css">light-themes.css</a>
+    </div>
+  </body>
+</html>
+
+

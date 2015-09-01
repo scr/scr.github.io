@@ -1,0 +1,32 @@
+/**
+ * Christmas Theme - every other letter is red or green
+ */
+.christmas .letter:nth-child(even) .light {
+  background-color: red;
+}
+.christmas .letter:nth-child(odd) .light {
+  background-color: green;
+}
+
+/**
+ * Christmas Theme 2 - every other light is red or green
+ */
+.christmas2 .letter .light:nth-child(even) {
+  background-color: red;
+}
+.christmas2 .letter .light:nth-child(odd) {
+  background-color: green;
+}
+
+/**
+ * Independence Day Theme - red, white, and blue
+ */
+.independence-day .letter:nth-child(3n+1) .light {
+  background-color: red;
+}
+.independence-day .letter:nth-child(3n+2) .light {
+  background-color: white;
+}
+.independence-day .letter:nth-child(3n+3) .light {
+  background-color: blue;
+}
